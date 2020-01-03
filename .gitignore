@@ -1,4 +1,4 @@
 .idea/
 SeleniumExample.iml
-.target/
+target/
 chromedriver.exe
