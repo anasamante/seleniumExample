@@ -3,7 +3,6 @@ package base;
 import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.testng.log4testng.Logger;
 
 import java.util.List;
 
@@ -12,8 +11,6 @@ public class BasePage {
     WebDriver driver;
     private WebElement webElement;
     private List<WebElement> webElementList;
-
-    Logger logger;
 
     public BasePage(WebDriver driver){
         this.driver = driver;
